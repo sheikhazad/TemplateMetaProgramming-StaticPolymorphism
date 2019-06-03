@@ -1,5 +1,5 @@
 # TemplateMetaProgramming-StaticPolymorphism
-This is simple example of how Static Polymorphism is achieved by using Template Meta Programming(TMP) Technique.
+This is simple example of how Static/Simpulated Polymorphism is achieved by using Template Meta Programming(TMP) Technique.
 
 Pls see the result files attached for both cases.
 
@@ -18,3 +18,5 @@ B) TemplateMetaProgramming.cpp
 Both above cases achieve same result but Static Polymorphism doesn't pay (unlike Dynamic Polymorphism) :
 1) Runtime cost
 2) Extra space due to virtual table and vptr.
+
+This technique is often used in library code where every bit of performance improvement counts a lot.
